@@ -15,7 +15,8 @@ const char* password = "xyxyxyxyxy"; //WIFI Password
 //3
 int relayPin = D1; // The Shield uses pin 1 for the relay
 WiFiServer server(80);
-IPAddress ip(xx, xx, xx, xx); // where xx is the desired IP Address
+IPAddress ip(xx, xx, xx, xx); // where xx is the desired IP Address - most sets of numbers 
+                              // likely will match gateway, must be unique IP address
 IPAddress gateway(yy, yy, yy, yy); // set gateway to match your network
 IPAddress subnet(255, 255, 255, 0); // set subnet mask to match your network
 
