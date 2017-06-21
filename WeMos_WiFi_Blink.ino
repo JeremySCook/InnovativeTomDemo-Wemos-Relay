@@ -6,7 +6,7 @@
 //1
 #include <ESP8266WiFi.h>
 
-// Below you will need to use your own WIFI informaiton.
+// Below you will need to use your own WIFI information.
 //2
 const char* ssid = "xyxyxyxyxyx"; //WIFI Name, WeMo will only connect to a 2.4GHz network.
 const char* password = "xyxyxyxyxy"; //WIFI Password
